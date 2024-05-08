@@ -1,0 +1,358 @@
+/* ここから下に記載していく */
+
+body{
+    background: rgb(255, 225, 0);
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+.header-logo{
+    float: left;
+    padding:25px ;
+}
+
+
+.header-list{
+    float: right;
+}
+.header-list li{
+    float: left;
+    font-size: 21px;
+    padding: 50px 30px;
+}
+
+.main-p{
+    position: relative;
+    z-index: -30;
+}
+
+.main-p img{
+    position: relative;
+    width:100%
+}
+
+.main-p h1{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    font-size: 48px;
+    color: white;
+
+}
+
+.main-p h2{
+    position: absolute;
+    left: 20%;
+    top:60%;
+    font-size: 32px;
+    color: white;
+}
+
+.main-about h1{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    padding-top:60px ;
+
+}
+
+.main-about h2{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.main-about h3{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main-about h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-about h5{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.main-about h6{
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-about p{
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.picture{
+    float:left;
+    padding-bottom: 60px;
+}
+
+.picture img{
+    max-width: 100%;
+    height: auto;
+ 
+}
+
+.main-course h1{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.main-course h2{
+    font-size: 20px;
+    color: #222222;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* aa corseの写真と文字の横並び(写真右側) */
+.class1{
+    display: flex;
+    text-align: center;
+    padding: 60px;
+}
+
+.aa img{
+    float: left;
+    width: 50%;
+    object-fit: cover;
+}
+
+.bb img{
+    float:right;
+    width:50%;
+    object-fit: cover;
+}
+
+.text h1{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top:100px;
+    padding-bottom: 40px;
+
+}
+
+.text{
+    font-size: 20px;
+    margin-top:50px ;
+    margin-bottom:140px;
+}
+
+.text p{
+    text-align: center;
+}
+
+
+.class2{
+    display: flex;
+    text-align: center;
+    padding: 60px;
+}
+
+
+
+.class2 text{
+    float:left;
+    width:50%;
+}
+
+
+.NEWS{
+    display: inline-block;
+} 
+
+
+
+.ff{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.ee{
+    display: flex;
+}
+
+.NEWS-pic{
+    display: flex;
+    padding: 30px 45px;
+
+}
+
+/* ホバー セピア調*/
+.NEWS-pic img {
+    max-width: 320px;
+    height:213px;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  .NEWS-pic img img {
+    width: 320%;
+    height: 200%;
+  }
+  /*ホバーエフェクト*/
+  .NEWS-pic img {
+    transition: .3s ease-in-out;
+  }
+  .NEWS-pic:hover img {
+    filter: sepia(100%);
+}
+
+/* .NEWS-pic img{
+    width: 90%;
+    height: 250px;
+   object-fit: cover;;
+} */
+
+
+.pic-text{
+ text-align: center;
+ width: 90%;
+}
+
+.pic-text p{
+    font-size: 16px;;
+    text-align: left;
+}
+
+
+
+.c-btn,
+.c-bnr,
+.c-txt {
+  cursor: pointer;
+  transition: .2s cubic-bezier(0.45, 0, 0.55, 1);
+  text-align: center;
+}
+
+
+
+.c-btn{
+    text-align: center;
+
+}
+ 
+/* ボタンの基礎コード */
+.c-btn {
+  background: #ff701e;
+  border: 2px solid #ff701e;
+  border-radius: 80px;
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  max-width: 1200px;
+  max-height: 60px;
+  padding: 30px 100px;
+  text-align: center;
+}
+
+
+.access{
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.access h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.access h2{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.access-text{
+    text-align: center; 
+}
+.access li{
+    text-align:left;
+    font-size: 20px;
+    color: black;
+    padding: 15px 15px;
+}
+
+.Contact{
+    text-align: center;
+}
+
+.Contact h1{
+    color:white;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+.Contact h2{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.Contact p{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.dd{
+    color:red;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+
+.form {
+    text-align: center;
+}
+
+
+.tbody th {
+    font-size: 16px;
+}
+
+
+
+.s-btn{
+    text-align: center;
+    padding-bottom: 140px;
+}
+
+
+
+.footer{
+    text-align: center;
+    background: #707070;
+    color: white;
+    width: 100%;
+    padding: 30px 0px 30px 0px ;
+}
